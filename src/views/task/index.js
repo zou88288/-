@@ -2,7 +2,7 @@ import {useState} from "react";
 import Weather from "../../components/headerWeather/headerWeather";
 import Learning from "../learning";
 import Complete from "../complete";
-import '../../App.css'
+import './task.css'
 function Task(){
  let [draggleValue,setDraggleValue]=useState('')
   let [addContentKey,setContent]=useState([])
