@@ -1,0 +1,20 @@
+[
+    {
+      "weather": "晴天",
+      "message": "获取数据成功",
+      "status": 200,
+      "city":"衡阳"
+    },
+  {
+"weather": "晴转多云",
+"message": "获取数据成功",
+"status": 200,
+"city": "北京"
+   },
+  {
+    "weather": "暴雨",
+    "message": "获取数据成功",
+    "status": 200,
+    "city": "天津"
+  }
+]

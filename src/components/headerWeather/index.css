@@ -1,0 +1,20 @@
+.header{
+    background-color: #7aff98;
+    height: 80px;
+}
+.select{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select h2{
+    color:white;
+    line-height: 80px;
+}
+.select select{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.weather{
+    margin-left: 20px;
+}
