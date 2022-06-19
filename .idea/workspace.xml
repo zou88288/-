@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c2fcbeba-14e6-4aed-8f59-62de0c7b085b" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/headerWeather/headerWeather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/headerWeather/headerWeather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mock/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/weather.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="tsconfig.json" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -66,7 +66,7 @@
       <updated>1655517944620</updated>
       <workItem from="1655517945952" duration="31000" />
       <workItem from="1655518393522" duration="22439000" />
-      <workItem from="1655602128645" duration="19383000" />
+      <workItem from="1655602128645" duration="24306000" />
     </task>
     <servers />
   </component>

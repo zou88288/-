@@ -1,10 +1,18 @@
 import "../../mock/weather"
 import  "./index.css"
 import axios from "axios";
+import {useNavigate} from 'react-router-dom'
 import {useEffect, useState} from "react";
 function Weather(){
+  const navigate=useNavigate()
   const [weatherData,setWeather]=useState([])
   let [currentWeather,setCurrentWeather]=useState({})
+  const goLogin=()=>{
+    navigate('/',{
+      replace:true
+      }
+    )
+  }
   useEffect(()=>{
     axios.get("/mock/weather").then(res=>{
       setWeather(res.data.data)
@@ -36,6 +44,8 @@ function Weather(){
         <div className="weather">
           <div>当前天气为:{currentWeather.weather}</div>
         </div>
+        <button style={{border:"none",padding:"7px 10px",marginLeft:"100px"}}
+        onClick={goLogin}>退出登录</button>
       </div>
     </div>
   )
