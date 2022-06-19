@@ -2,6 +2,7 @@ import './App.css';
 import {useState} from 'react'
 import Learning from "./views/learning";
 import Complete from "./views/complete";
+import Weather from "./components/headerWeather/headerWeather";
 function App() {
   let [draggleValue,setDraggleValue]=useState('')
   let [addContentKey,setContent]=useState([])
@@ -61,6 +62,8 @@ function App() {
     }
   }
   return (
+    <div>
+      <Weather/>
     <div className="App">
       <div className="prepare">
         <span className='title'>Prepare to study</span>
@@ -81,6 +84,7 @@ function App() {
       </div>
      <Learning draggleValue={draggleValue} addContentFinish={addContentFinish}/>
      <Complete draggleValue={draggleValue} addContentFinish={addContentFinish}/>
+    </div>
     </div>
   );
 }
